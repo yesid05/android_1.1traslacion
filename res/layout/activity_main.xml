@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"        
+    tools:context=".MainActivity" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewUno"
+        android:text="@string/animacion"
+        android:textColor="@color/colorTexto"
+        />
+	<TextView 
+	    android:id="@+id/texto"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center"
+	    android:textStyle="bold"
+	    android:textSize="@dimen/textViewDos"
+	    android:text="@string/traslacion"
+	    android:textColor="@color/colorTexto"
+	    />
+	
+
+</LinearLayout>
